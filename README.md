@@ -42,7 +42,7 @@ Bachelor & Master Student, Optcial Engineering & Software Engineering
 
 <!-- START_SECTION:blog -->
 * <a href='https://www.sciencedirect.com/science/article/pii/S1361841524000318' target='_blank'>DOVE: Doodled vessel enhancement for photoacoustic angiography super resolution</a> | [Project](https://github.com/yuanzhengthu/handDrawnPAAImages) - 2024-02-13 | [**Top one**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
-* <a href='https://ieeexplore.ieee.org/abstract/document/10368794' target='_blank'>Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughout Super-Resolution 3D Image Reconstruction</a> | [Project](https://github.com/yuanzhengthu/3DReconstruction_Organoid) - 2023-11-04 | [**Best Paper**]()
+* <a href='https://ieeexplore.ieee.org/abstract/document/10368794' target='_blank'>Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughout Super-Resolution 3D Image Reconstruction</a> | [Project](https://github.com/yuanzhengthu/3DReconstruction_Organoid) - 2023-11-04 | [**Best Paper**](CV/acp2023.jpg)
 <!-- END_SECTION:blog -->
 
 </td></tr>
