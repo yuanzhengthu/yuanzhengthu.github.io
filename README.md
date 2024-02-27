@@ -17,19 +17,24 @@
 
 
 <img align="left" width="50" src="CV/630px-Tsinghua_University_Logo.svg.png" />
-<a href="https://www.tsinghua.edu.cn/en/"><font color="blue">Tsinghua University</font></a> &emsp; 
-<font color="red">August 11, 2021 - July 1, 2025</font><br>
+
+[Tsinghua University](https://www.tsinghua.edu.cn/en/) August 11, 2021 - July 1, 2025
+
 PhD Candidate, Data Science and Information Technology
 
-<img align="left" width="50" src="CV/630px-Tsinghua_University_Logo.svg.png" />
-<a href="https://www.tsinghua.edu.cn/en/"><font color="blue">Tsinghua University</font></a> &emsp; 
-<font color="red">August 11, 2021 - July 1, 2025</font><br>
-PhD Candidate, Data Science and Information Technology
 
 <img align="left" width="50" src="CV/630px-Tsinghua_University_Logo.svg.png" />
-<a href="https://www.tsinghua.edu.cn/en/"><font color="blue">Tsinghua University</font></a> &emsp; 
-<font color="red">August 11, 2021 - July 1, 2025</font><br>
+
+[Tsinghua University](https://www.tsinghua.edu.cn/en/) August 11, 2021 - July 1, 2025
+
 PhD Candidate, Data Science and Information Technology
+
+
+<img align="left" width="55" src="CV/Hustseals.png" />
+
+[Huazhong University of Science and Technology](https://english.hust.edu.cn)
+
+Bachelor & Master Student, Optcial Engineering & Software Engineering
 
 ### 📃 Recent Publications
   
