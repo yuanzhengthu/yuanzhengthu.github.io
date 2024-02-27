@@ -1,25 +1,27 @@
-### 🤺 About Me
 
-<img align="right" width="88" src="CV/1708975869150.jpg" />
+<!-- <img align="left" width="200" src="CV/1708975869150.jpg" />-->
+<img align="left" width="200" src="CV/1708975869150.jpg" />
+<img align="right" width="200" src="CV/Tsinghua_University-Logo.wine.png" />
 
-<p>&emsp;&emsp;** Name **: Yuanzheng MA</p>
-<p>&emsp;&emsp;** Position **: PhD Candidate at Tsinghua University</p>
-<p>&emsp;&emsp;Hobbies: Basketball; Badminton; Guitar.</p>
-<p>&emsp;&emsp;Skills: Stm32-based Embedded Development; Deep Learning with Python and C++; Optical Designing; PCD Designing.</p>
-<p><strong>&emsp;&emsp;We're making the world a better place. Through constructing elegant hierarchies for maximum code reuse and extensibility.</strong></p>
+### Yuanzheng MA (马远征)
 
-</td></tr>
+- **Email**: yuanzhengthu@gmail.com
+- **Position**: Scientist in Electronical Engineering
+- **Location**: Berkeley, CA, United States
 
-<tr><td>
+&emsp;
+
+### Education
+
+
+<img align="left" width="50" src="CV/630px-Tsinghua_University_Logo.svg.png" />
+
+
   
-### 🏢 Work Experience
+[Tsinghua University]([https://www.tuhuimap.com/](https://www.tsinghua.edu.cn/en/)) &emsp; 📌 <span style="font-size: 10px;"> 2021-08-01 —— 2025-06-23</span>
 
-<img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/tuhui.png" />
+PhD Candidate, Data Science and Information Technology
 
-- [广州图慧信息科技有限公司](https://www.tuhuimap.com/) &emsp; 📌 2023-06-19 —— 2024-01-19
-  
-  - 工作岗位：Web前端开发工程师
-  - 工作内容：杂活
 
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/nio.png" />
 
