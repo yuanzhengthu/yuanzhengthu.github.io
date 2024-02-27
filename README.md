@@ -1,6 +1,6 @@
 
 <!-- <img align="left" width="200" src="CV/1708975869150.jpg" />-->
-<img align="left" width="200" src="CV/1708975869150.jpg" />
+<img align="left" width="180" src="CV/1708975869150.jpg" />
 <img align="right" width="200" src="CV/Tsinghua_University-Logo.wine.png" />
 
 ### Yuanzheng MA (马远征)
@@ -17,26 +17,21 @@
 
 
 <img align="left" width="50" src="CV/630px-Tsinghua_University_Logo.svg.png" />
-
-
-  
 <a href="https://www.tsinghua.edu.cn/en/"><font color="blue">Tsinghua University</font></a> &emsp; 
 <font color="red">August 11, 2021 - July 1, 2025</font><br>
 PhD Candidate, Data Science and Information Technology
 
+<img align="left" width="50" src="CV/630px-Tsinghua_University_Logo.svg.png" />
+<a href="https://www.tsinghua.edu.cn/en/"><font color="blue">Tsinghua University</font></a> &emsp; 
+<font color="red">August 11, 2021 - July 1, 2025</font><br>
+PhD Candidate, Data Science and Information Technology
 
-<img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/nio.png" />
+<img align="left" width="50" src="CV/630px-Tsinghua_University_Logo.svg.png" />
+<a href="https://www.tsinghua.edu.cn/en/"><font color="blue">Tsinghua University</font></a> &emsp; 
+<font color="red">August 11, 2021 - July 1, 2025</font><br>
+PhD Candidate, Data Science and Information Technology
 
-- [蔚来汽车科技（安徽）有限公司](https://www.nio.cn/) &emsp; 📌 2023-02-20 —— 2023-05-12
-  
-  - 工作岗位：Web前端开发实习生
-  - 工作内容：参与一站式数据治理与研发平台 DataSight 的开发与维护工作
-
-</td></tr>
-
-<tr><td>
-
-### 📃 Recent Blog
+### 📃 Recent Publications
   
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/astronaut.png" />
 
