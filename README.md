@@ -16,11 +16,11 @@
 ### Education
 
 
-<img align="left" width="50" src="CV/630px-Tsinghua_University_Logo.svg.png" />
+<img align="left" width="50" src="CV/Seal_of_University_of_California,_Berkeley.svg.png" />
 
-[Tsinghua University](https://www.tsinghua.edu.cn/en/) August 11, 2021 - July 1, 2025
+[University of California, Berkeley](https://www.berkeley.edu) Feburary 21, 2024 - Feburary 21, 2025
 
-PhD Candidate, Data Science and Information Technology
+Exchanging Scholar, Electronical Engineering
 
 
 <img align="left" width="50" src="CV/630px-Tsinghua_University_Logo.svg.png" />
