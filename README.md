@@ -2,8 +2,8 @@
 
 <img align="right" width="88" src="CV/1708975869150.jpg" />
 
-<p>&emsp;&emsp;Name: Yuanzheng MA</p>
-<p>&emsp;&emsp;Position: PhD Candidate at Tsinghua University</p>
+<p>&emsp;&emsp;** Name **: Yuanzheng MA</p>
+<p>&emsp;&emsp;** Position **: PhD Candidate at Tsinghua University</p>
 <p>&emsp;&emsp;Hobbies: Basketball; Badminton; Guitar.</p>
 <p>&emsp;&emsp;Skills: Stm32-based Embedded Development; Deep Learning with Python and C++; Optical Designing; PCD Designing.</p>
 <p><strong>&emsp;&emsp;We're making the world a better place. Through constructing elegant hierarchies for maximum code reuse and extensibility.</strong></p>
