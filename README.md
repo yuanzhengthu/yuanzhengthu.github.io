@@ -1,6 +1,6 @@
 ### 🤺 About Me
 
-<img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/steven.png" />
+<img align="right" width="88" src="CV/1708975869150.jpg" />
 
 <p>&emsp;&emsp;Name: Yuanzheng MA</p>
 <p>&emsp;&emsp;Position: PhD Candidate at Tsinghua University</p>
