@@ -1,4 +1,4 @@
-## [MAIN PAGE]()   |  [ACTIVITIES]()   |   [PUBLICATIONS]()
+## [MAIN PAGE]()   |  [ACTIVITIES](ACTIVATIES/README.md)   |   [PUBLICATIONS]()
 <!-- <img align="left" width="200" src="CV/1708975869150.jpg" />-->
 <img align="left" width="138" src="CV/1708975869150.jpg" />
 
