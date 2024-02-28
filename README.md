@@ -1,10 +1,9 @@
 
 <!-- <img align="left" width="200" src="CV/1708975869150.jpg" />-->
-<img align="left" width="180" src="CV/1708975869150.jpg" />
+<img align="left" width="138" src="CV/1708975869150.jpg" />
 
 
-### Yuanzheng MA (马远征)
-
+#### **Yuanzheng MA (马远征)**
 - **Email**: yuanzhengthu@gmail.com
 - **Position**: Scientist in Electronical Engineering
 - **Location**: Berkeley, CA, United States
