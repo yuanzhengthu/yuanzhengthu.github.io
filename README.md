@@ -40,27 +40,22 @@ Bachelor & Master Student, Optcial Engineering & Software Engineering
   
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/astronaut.png" />
 
-<!-- START_SECTION:blog -->
+<!-- START_SECTION:pub -->
 * <a href='https://www.sciencedirect.com/science/article/pii/S1361841524000318' target='_blank'>DOVE: Doodled vessel enhancement for photoacoustic angiography super resolution</a> | [Project](https://github.com/yuanzhengthu/handDrawnPAAImages) - 2024-02-13 | [**Top one**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
 * <a href='https://ieeexplore.ieee.org/abstract/document/10368794' target='_blank'>Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughout Super-Resolution 3D Image Reconstruction</a> | [Project](https://github.com/yuanzhengthu/3DReconstruction_Organoid) - 2023-11-04 | [**Best Paper**](CV/acp2023.jpg)
-<!-- END_SECTION:blog -->
+* <a href='https://arxiv.org/abs/2306.14487' target='_blank'>Iterative-in-Iterative Super-Resolution Biomedical Imaging Using One Real Image</a> | [Project]() - 2023-06-26 | [**Best Student Presentation**](CV/SPIE-BPC outstanding student report.jpg)
 
-</td></tr>
+<!-- END_SECTION:pub -->
 
-<tr><td>
 
-### 🧠 Second Brain
+### 🧠 Skills
 
 <img align="right" width="88" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/technologist.png" />
 
-<!-- START_SECTION:brain -->
-* <a href='https://brain.sunguoqi.com/web/frontend/guide/evolution.html' target='_blank'>前端开发演进史</a> - 2023-03-25
-* <a href='https://brain.sunguoqi.com/web/frontend/guide/what-is.html' target='_blank'>什么是前端开发</a> - 2024-02-20
-* <a href='https://brain.sunguoqi.com/web/frontend/js/es6/test.html' target='_blank'>es6</a> - 2023-09-07
-* <a href='https://brain.sunguoqi.com/web/frontend/js/js/test.html' target='_blank'>JS</a> - 2023-09-07
-* <a href='https://brain.sunguoqi.com/web/frontend/tools/git/git.html' target='_blank'>Git</a> - 2023-12-08
-<!-- END_SECTION:brain -->
+<!-- START_SECTION:skills -->
+* <a href='' target='_blank'> STM32-Based Embedded Programming</a> - 2019-09-01 | [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
+* <a href='' target='_blank'> STM32-Based Deep Learning</a> - 2016-05-23 | [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
+* <a href='' target='_blank'> STM32-Based Electronical </a> - 2019-09-01 | [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
+* <a href='' target='_blank'> STM32-Based Beam Path Designing</a> - 2019-09-01 | [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
 
-</td></tr>
-
-<tr><td>
+<!-- END_SECTION:skills -->
