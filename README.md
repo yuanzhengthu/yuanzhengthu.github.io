@@ -52,10 +52,10 @@ Bachelor & Master Student, Optcial Engineering & Software Engineering
 ### SKILLS
 
 <!-- START_SECTION:skills -->
-* <a href='' target='_blank'> STM32-Based Embedded Programming</a> - 2019-09-01 | [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
-* <a href='' target='_blank'> STM32-Based Deep Learning</a> - 2016-05-23 | [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
-* <a href='' target='_blank'> STM32-Based Electronical </a> - 2019-09-01 | [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
-* <a href='' target='_blank'> STM32-Based Beam Path Designing</a> - 2019-09-01 | [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
+* <a href='' target='_blank'> STM32-Based Embedded Programming</a> - 2019-09-01, [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
+* <a href='' target='_blank'> STM32-Based Deep Learning</a> - 2016-05-23, [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
+* <a href='' target='_blank'> STM32-Based Electronical </a> - 2019-09-01, [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
+* <a href='' target='_blank'> STM32-Based Beam Path Designing</a> - 2019-09-01, [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
 
 <!-- END_SECTION:skills -->
 
