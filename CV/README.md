@@ -1,6 +1,6 @@
-## [MAIN PAGE]()   |  [ACTIVITIES](ACTIVATIES/README.md)   |   [PUBLICATIONS](https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/35e028a5ee17ed0e7dfa3d8efda138a49ca1042d/PUBLICATIONS/README.md)
+## [MAIN PAGE]()   |  [ACTIVITIES](ACTIVATIES/README.md)   |   [PUBLICATIONS](PUBLICATIONS/README.md)
 <!-- <img align="left" width="200" src="CV/1708975869150.jpg" />-->
-<img align="left" width="138" src="CV/1708975869150.jpg" />
+<img align="left" width="138" src="https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/5c31c7c3c975beafe0938fc123ca96c04a79704c/CV/1708975869150.jpg" />
 
 
 #### **Yuanzheng MA (马远征)**
