@@ -27,10 +27,19 @@
             clear: both;
             margin-top: 40px;
         }
-        .photo-album img {
-            width: 150px; /* Adjust as needed */
-            margin: 10px; /* Adjust as needed */
+        .photo-album {
+            margin-top: 40px;
+        }
+        .photo-item {
             float: left;
+            margin: 10px;
+            text-align: center;
+        }
+        .photo-item img {
+            width: 150px; /* Adjust as needed */
+        }
+        .photo-item p {
+            margin-top: 5px;
         }
         .clear {
             clear: both;
@@ -54,10 +63,22 @@
     <!-- Photo Album -->
     <div class="photo-album">
         <h3>Photo Album</h3>
-        <img src="path/to/photo1.jpg" alt="Photo 1">
-        <img src="path/to/photo2.jpg" alt="Photo 2">
-        <img src="path/to/photo3.jpg" alt="Photo 3">
-        <img src="path/to/photo4.jpg" alt="Photo 4">
+        <div class="photo-item">
+            <img src="path/to/photo1.jpg" alt="Photo 1">
+            <p>Description of Photo 1</p>
+        </div>
+        <div class="photo-item">
+            <img src="path/to/photo2.jpg" alt="Photo 2">
+            <p>Description of Photo 2</p>
+        </div>
+        <div class="photo-item">
+            <img src="path/to/photo3.jpg" alt="Photo 3">
+            <p>Description of Photo 3</p>
+        </div>
+        <div class="photo-item">
+            <img src="path/to/photo4.jpg" alt="Photo 4">
+            <p>Description of Photo 4</p>
+        </div>
         <div class="clear"></div> <!-- Clear float -->
     </div>
     
