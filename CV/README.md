@@ -1,4 +1,4 @@
-## [MAIN PAGE]()   |  [ACTIVITIES](ACTIVATIES/README.md)   |   [PUBLICATIONS](PUBLICATIONS/README.md)
+## [MAIN PAGE](README.md)   |  [ACTIVITIES](ACTIVATIES/README.md)   |   [PUBLICATIONS](PUBLICATIONS/README.md)
 <!-- <img align="left" width="200" src="CV/1708975869150.jpg" />-->
 <img align="left" width="138" src="https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/5c31c7c3c975beafe0938fc123ca96c04a79704c/CV/1708975869150.jpg" />
 
@@ -15,21 +15,21 @@
 ### EDUATION
 
 
-<img align="left" width="50" src="CV/Seal_of_University_of_California,_Berkeley.svg.png" />
+<img align="left" width="50" src="https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/460f582c87c5a81824250499b44e4ffaa1fcd8d1/CV/UCB.png" />
 
 [University of California, Berkeley](https://www.berkeley.edu) Feburary 21, 2024 - Feburary 21, 2025
 
 Exchanging Scholar, Electronical Engineering
 
 
-<img align="left" width="50" src="CV/630px-Tsinghua_University_Logo.svg.png" />
+<img align="left" width="50" src="https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/162e3b5c825cae4005c613e46c42ec77d652ed0b/CV/Tsinghua_Uni.png" />
 
 [Tsinghua University](https://www.tsinghua.edu.cn/en/) August 11, 2021 - July 1, 2025
 
 PhD Candidate, Data Science and Information Technology
 
 
-<img align="left" width="55" src="CV/Hustseals.png" />
+<img align="left" width="55" src="https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/92924a1e88b4eb407077192a15b834209215c23c/CV/Hust.png" />
 
 [Huazhong University of Science and Technology](https://english.hust.edu.cn)
 
