@@ -1,5 +1,3 @@
-
-
 ### February 17, 2024
 - 🚀 **CLEO2024** My paper titled "Enhancing Underwater Imaging for Robot through Embedded Polarization Neural Network (AF2D.4)" got accepted by CLEO2024! Can't wait to present it in-person at the prestigious Charlotte Convention Center, Charlotte, North Carolina, USA, from May 5-10, 2024.
 
@@ -33,8 +31,8 @@
 
 ### June 10, 2023
 - 🎤 **BPC2023** Attended the BPC2023 conference in Shanghai with Bro David and clinched the Best Presentation award for my report titled "Medical Image Super-resolution Reconstruction Using a Single Image Based on Nested Iterative Neural Networks." A proud moment shared with my excellent collaborators Xinyue Wang, Benqi Zhao, Ying Xiao, and Professor Guan.
-  
-<img src="https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/main/ACTIVATIES/pics/bpc2023.jpg" alt="bpc2023" width="250" height="200">
+
+![bpc2023](https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/main/ACTIVATIES/pics/bpc2023.jpg)
 
 ### May 5, 2023
 - 🌉 **CLEO2023** Traveled to San Jose, CA, United States, to present my report titled "Super-Resolution Photoacoustic Angiography Assisted by Images Forged from Hand-Drawn Graffiti (JTu2A.51)." Had the privilege of meeting Professor Leslie A. Rusch and engaging in a meaningful conversation.
