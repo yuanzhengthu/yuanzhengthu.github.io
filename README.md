@@ -51,18 +51,42 @@ Bachelor & Master Student, Optcial Engineering & Software Engineering
 ### SKILLS
 
 <!-- START_SECTION:skills -->
-* <a href='' target='_blank'> Programming on Embedded Devices</a> - 2011-02-01, [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
-* <a href='' target='_blank'> Deep Learning</a> - 2016-05-23, [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
-* <a href='' target='_blank'> Robotics </a> - 2019-09-01, [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
-* <a href='' target='_blank'> Beam Path Designing</a> - 2019-09-01, [**Project**](https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail)
-
+* <a href='' target='_blank'> Programming on Embedded Devices</a> - 2011-02-01, [**Project**](https://yuanzhengthu.github.io)
+* <a href='' target='_blank'> Deep Learning</a> - 2016-05-23, [**Project**](https://yuanzhengthu.github.io)
+* <a href='' target='_blank'> Robotics </a> - 2019-09-01, [**Project**](https://yuanzhengthu.github.io)
+* <a href='' target='_blank'> Beam Path Designing</a> - 2019-09-01, [**Project**](https://yuanzhengthu.github.io)
 <!-- END_SECTION:skills -->
 
 ### RESEARCH EXPERIENCE
 
+#### Guangdong Photoacoustic Medical Technology Co., Ltd.
+- **Position:** Algorithm Engineer (Internship)
+- **Duration:** January 2022 - June 2022
+- **Location:** Guangzhou, China
+- **Key Responsibilities:**
+  - Designed graphical user interfaces (GUIs) using the Qt framework.
+  - Deployed deep learning models to enhance imaging algorithms.
+  - Improved the speed of microscopy imaging processes.
+
+#### South China Normal University
+- **Position:** Group Leader of Computational Photoacoustic Microscopy
+- **Duration:** September 2020 - June 2022
+- **Location:** Guangzhou, China
+- **Key Responsibilities:**
+  - Conducted research in computer vision and its applications in photoacoustic microscopy.
+  - Developed and optimized the beam path for photoacoustic microscopy systems.
+  - Mentored students and provided guidance in their research projects.
+
 ### HONORS & AWARDS
 
-### MISCELLANEOUS
+- **The 16th Challenge Cup, Science and Technology Innovation Class A, Second Prize** - Jun. 2021
+- **The First Prize in The Second Creative Association Entrepreneurship Competition** - Nov. 2021
+- **Outstanding Student Report in BPC2023** - June. 2023
+- **The First Prize in Tsinghua-Berkeley Retreat2023** - July. 2023
+- **Best Student Paper in ACP/POEM 2023** - Oct. 2023
 
-### PROFESSIONAL EXPERIENCE
+### MISCELLANEOUS
+- Basketball
+- Badminton
+- Guitar
  
