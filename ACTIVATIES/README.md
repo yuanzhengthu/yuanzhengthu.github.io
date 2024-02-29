@@ -1,4 +1,4 @@
-## 🌟 Exciting Journey: My Activities List 🌟
+
 
 ### February 17, 2024
 - 🚀 **CLEO2024** My paper titled "Enhancing Underwater Imaging for Robot through Embedded Polarization Neural Network (AF2D.4)" got accepted by CLEO2024! Can't wait to present it in-person at the prestigious Charlotte Convention Center, Charlotte, North Carolina, USA, from May 5-10, 2024.
