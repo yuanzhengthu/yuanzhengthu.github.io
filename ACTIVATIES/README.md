@@ -1,54 +1,52 @@
-## Activities List
+## 🌟 Exciting Journey: My Activities List 🌟
 
 ### February 17, 2024
-- My paper titled "Enhancing Underwater Imaging for Robot through Embedded Polarization Neural Network (AF2D.4)" was accepted by CLEO. I will give an in-person presentation at the Charlotte Convention Center, Charlotte, North Carolina, USA, from May 5-10, 2024.
+- 🚀 **CLEO2024** My paper titled "Enhancing Underwater Imaging for Robot through Embedded Polarization Neural Network (AF2D.4)" got accepted by CLEO2024! Can't wait to present it in-person at the prestigious Charlotte Convention Center, Charlotte, North Carolina, USA, from May 5-10, 2024.
 
 ### February 13, 2024
-- My first top paper was accepted by Medical Image Analysis.
+- 🎉 **MedIA!** My first top-tier paper was officially accepted by Medical Image Analysis. A milestone in my research journey!
 
 ### December 9, 2023
-- Attended the Alumni annual meeting of HUST.
+- 🤝 **Alumni** Attended the Alumni annual meeting of HUST. Great to connect with fellow alumni and share our experiences.
 
 ### November 25, 2023
-- Organized a team to join the SDG competition with team members Yuqi Wang, Yi Hao, Xuanyi Liu, Jin Li, Yubing Wang, and myself.
+- 🏆 **Teamwork** Led an amazing team to join the SDG competition. Together with Yuqi Wang, Yi Hao, Xuanyi Liu, Jin Li, Yubing Wang, and myself, we showcased our incredible teamwork and completed the challenge with flying colors.
 
 ### November 12, 2023
-- Won the third prize in the "Welcome Cup" badminton competition of Tsinghua-SIGS.
+- 🏸 **Badminton** Clinched the third prize in the "Welcome Cup" badminton competition of Tsinghua-SIGS. Proud of my team's performance!
 
 ### November 4, 2023
-- Presented my paper titled "Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughput Super-Resolution 3D Image Reconstruction" at ACP2023 and won the "Best Paper Prize."
+- 🌟 **ACP2023** Presented my paper titled "Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughput Super-Resolution 3D Image Reconstruction" at ACP2023 and won the prestigious "Best Paper Prize."
 
 ### October 9, 2023
-- Had my first birthday party with my lab mates and friends.
+- 🎂 **Birthday** Hosted my first birthday party with my lab mates and friends. It was a day filled with joy and laughter!
 
 ### July 7, 2023
-- Won the first prize of Retreat2023 with my team members Yingfei Sun, Zeihui Yu, Junhui Xu, Zuohong Chen, and Bro David.
+- 🥇 **Retreat23** Led my team members Yingfei Sun, Zeihui Yu, Junhui Xu, Zuohong Chen, and Bro David to win the first prize of Retreat2023. A testament to our teamwork and dedication!
 
 ### July 3, 2023
-- Attended the WOLIT’23 workshop at Qilin Mountain Villa and met Professor Yi MA and other famous professors in my domain.
+- 📚 **WOLIT'23** Attended the WOLIT’23 workshop at Qilin Mountain Villa. It was an enriching experience meeting Professor Yi MA and other eminent professors in my field.
 
 ### July 1, 2023
-- Took my classmates to Guangzhou for practice with Qian Zhang.
+- 🌍 **Group Travel** Embarked on a practice journey to Guangzhou with Qian Zhang. It was a great learning and bonding experience.
 
 ### June 10, 2023
-- Attended the BPC2023 conference in Shanghai with Bro David and won the Best Presentation award for my report titled "Medical Image Super-resolution Reconstruction Using a Single Image Based on Nested Iterative Neural Networks."
+- 🎤 **BPC2023** Attended the BPC2023 conference in Shanghai with Bro David and clinched the Best Presentation award for my report titled "Medical Image Super-resolution Reconstruction Using a Single Image Based on Nested Iterative Neural Networks." A proud moment shared with my excellent collaborators Xinyue Wang, Benqi Zhao, Ying Xiao, and Professor Guan.
 
 ### May 5, 2023
-- Traveled to San Jose, CA, United States, to give a report titled "Super-Resolution Photoacoustic Angiography Assisted by Images Forged from Hand-Drawn Graffiti (JTu2A.51)" and met Professor Leslie A. Rusch.
+- 🌉 **CLEO2023** Traveled to San Jose, CA, United States, to present my report titled "Super-Resolution Photoacoustic Angiography Assisted by Images Forged from Hand-Drawn Graffiti (JTu2A.51)." Had the privilege of meeting Professor Leslie A. Rusch and engaging in a meaningful conversation.
 
 ### April 2, 2023
-- Attended the "Third National Photonic Technology Forum" in Baiyun District, Guangzhou, and presented a report titled "Few-shot Super-resolution Angiography Based on Nested Iteration."
+- 🛫 **PTF2023** Attended the "Third National Photonic Technology Forum" in Baiyun District, Guangzhou, and delivered a presentation titled "Few-shot Super-resolution Angiography Based on Nested Iteration." An insightful experience at the subforum of "Optical display and optical information processing."
 
 ### March 2, 2023
-- Won the fourth prize in the "Teacher-Student Cup" of Tsinghua-SIGS.
+- 🏅 **Badminton** Secured the fourth prize in the "Teacher-Student Cup" of Tsinghua-SIGS. A reminder that there's always room for improvement in cross-cooperation between teachers and students.
 
 ### February 2023
-- Published my first conference paper at CLEO2023, the top conference for optical applications.
+- 📜 **CLEO2023** Published my very first conference paper at CLEO2023, the top-tier conference for optical applications. A significant milestone in my academic journey!
 
 ### November 5, 2022
-- Won the first prize in the "Welcome Cup" badminton competition of Tsinghua-SIGS.
+- 🏆 **Badminton** Triumphed in the "Welcome Cup" badminton competition of Tsinghua-SIGS with an impressive performance. A proud moment for the team!
 
 ### September 4, 2022
-- Published my second paper titled  [Cascade neural approximating for few-shot super-resolution photoacoustic angiography]( https://pubs.aip.org/aip/apl/article/121/10/103701/2834237)
-### August 2022
-- Quit my offer in university and came to Tsinghua to pursue my PhD degree.
+- 📰 **Article** My second paper titled "Cascade neural approximating for few-shot super-resolution photoacoustic angiography" made its way into one of the best physics journals, Applied Physics Letters
