@@ -16,12 +16,12 @@
 ### November 4, 2023
 - 🌟 **ACP2023** Presented my paper titled "Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughput Super-Resolution 3D Image Reconstruction" at ACP2023 and won the prestigious "Best Paper Prize."
 
-<img src="https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/main/ACTIVATIES/pics/acp2023-3.jpg" alt="acp2023" width="280" height="200">
+![retreat2023](https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/main/ACTIVATIES/pics/acp2023-3.jpg)
 
 ### July 7, 2023
 - 🥇 **Retreat23** Led my team members Yingfei Sun, Zeihui Yu, Junhui Xu, Zuohong Chen, and Bro David to win the first prize of Retreat2023. A testament to our teamwork and dedication!
-  
-<img src="ACTIVATIES/pics/cleo2023.jpg" alt="retreat2023" width="250" height="200">
+
+![retreat2023](https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/main/ACTIVATIES/pics/retreat2023.jpg)
 
 ### July 3, 2023
 - 📚 **WOLIT'23** Attended the WOLIT’23 workshop at Qilin Mountain Villa. It was an enriching experience meeting Professor Yi MA and other eminent professors in my field.
@@ -36,8 +36,8 @@
 
 ### May 5, 2023
 - 🌉 **CLEO2023** Traveled to San Jose, CA, United States, to present my report titled "Super-Resolution Photoacoustic Angiography Assisted by Images Forged from Hand-Drawn Graffiti (JTu2A.51)." Had the privilege of meeting Professor Leslie A. Rusch and engaging in a meaningful conversation.
-  
-<img src="https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/main/ACTIVATIES/pics/cleo2023.jpg" alt="cleo2023" width="200" height="280">
+
+![CLEO2023](https://github.com/yuanzhengthu/yuanzhengthu.github.io/blob/main/ACTIVATIES/pics/cleo2023.jpg)
 
 ### April 2, 2023
 - 🛫 **PTF2023** Attended the "Third National Photonic Technology Forum" in Baiyun District, Guangzhou, and delivered a presentation titled "Few-shot Super-resolution Angiography Based on Nested Iteration." An insightful experience at the subforum of "Optical display and optical information processing."
