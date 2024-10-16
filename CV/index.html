@@ -3,157 +3,393 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuanzheng MA's Homepage</title>
+    <title>Yuanzheng MA's CV</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        /* Navigation Bar */
         .navbar {
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid #e0e0e0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #007BFF;
+        }
+
+        /* Header Section */
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+
+        .profile-pic {
+            flex: 1 1 150px;
+            max-width: 150px;
+            margin-right: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: auto;
+        }
+
+        .info {
+            flex: 2 1 300px;
+        }
+
+        .info h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #007BFF;
+        }
+
+        .info p {
+            margin-bottom: 10px;
+        }
+
+        .info p strong {
+            color: #555;
+        }
+
+        /* Sections */
+        .section {
+            padding: 40px 20px;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007BFF;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Education */
+        .education .institution {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+
+        .institution-logo {
+            flex: 0 0 60px;
+            max-width: 60px;
+            margin-right: 20px;
+        }
+
+        .institution-logo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .institution-details {
+            flex: 1;
+        }
+
+        .institution-details a {
+            font-weight: 600;
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .institution-details a:hover {
+            text-decoration: underline;
+        }
+
+        .institution-details p {
+            margin: 5px 0;
+        }
+
+        /* Publications, Skills, Experience, Awards, Miscellaneous */
+        .item {
             margin-bottom: 20px;
         }
-        .navbar a {
-            margin-right: 15px;
+
+        .item a {
+            color: #007BFF;
             text-decoration: none;
-            color: black;
+            font-weight: 600;
         }
-        .profile-pic {
-            float: left;
-            width: 138px;
+
+        .item a:hover {
+            text-decoration: underline;
         }
-        .info {
-            margin-left: 150px;
+
+        .item p {
+            margin: 5px 0;
+            color: #555;
         }
-        .education, .publications, .skills, .experience, .awards, .miscellaneous {
-            clear: both;
-            margin-top: 40px;
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 20px;
         }
-        .institution-logo {
-            float: left;
-            width: 50px;
-            margin-right: 10px;
+
+        .footer p {
+            color: #777;
+            font-size: 0.9em;
         }
-        .institution {
-            margin-bottom: 20px; /* Adjust the value as needed */
-        }
-        .publication, .skill, .experience-item, .award, .misc-item {
-            margin-bottom: 10px;
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .info h1 {
+                font-size: 1.8em;
+            }
+
+            .navbar {
+                flex-wrap: wrap;
+            }
+
+            .navbar a {
+                margin: 10px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="../index.html">MAIN PAGE</a> |
-        <a href="index.html">CV</a> |
-        <a href="../ACTIVATIES/index.html">UPDATES</a> |
-        <a href="../PUBLICATIONS/index.html">PUBLICATIONS</a>
-    </div>
-    <img class="profile-pic" src="1708975869150.jpg" alt="Yuanzheng MA's Profile Picture">
-    <div class="info">
-        <h2>Yuanzheng MA (马远征)</h2>
-        <p><strong>Email:</strong> yuanzhengthu@gmail.com</p>
-        <p><strong>Position:</strong> Scientist in Electrical Engineering</p>
-        <p><strong>Location:</strong> Berkeley, CA, United States</p>
-    </div>
-    <div class="education">
-        <h3>EDUCATION</h3>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="../index.html">Main Page</a>
+        <a href="index.html">CV</a>
+        <a href="../ACTIVITIES/index.html">Updates</a>
+        <a href="../PUBLICATIONS/index.html">Publications</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="profile-pic">
+            <img src="1708975869150.jpg" alt="Yuanzheng MA">
+        </div>
+        <div class="info">
+            <h1>Yuanzheng MA (马远征)</h1>
+            <p><strong>Email:</strong> yuanzhengthu@gmail.com</p>
+            <p><strong>Position:</strong> Scientist in Electrical Engineering</p>
+            <p><strong>Location:</strong> Berkeley, CA, United States</p>
+        </div>
+    </header>
+
+    <!-- Education Section -->
+    <section class="section education">
+        <h2>Education</h2>
+
         <div class="institution">
-            <img class="institution-logo" src="UCB.png" alt="UC Berkeley Logo">
-            <a href="https://www.berkeley.edu">University of California, Berkeley</a> - February 21, 2024 - February 21, 2025<br>
-            Exchanging Scholar, Electrical Engineering
-            
+            <div class="institution-logo">
+                <img src="UCB.png" alt="UC Berkeley Logo">
+            </div>
+            <div class="institution-details">
+                <a href="https://www.berkeley.edu">University of California, Berkeley</a>
+                <p><strong>Exchanging Scholar, Electrical Engineering</strong></p>
+                <p>February 21, 2024 - February 21, 2025</p>
+            </div>
         </div>
+
         <div class="institution">
-            <img class="institution-logo" src="Tsinghua_Uni.png" alt="Tsinghua University Logo">
-            <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> - August 11, 2021 - July 1, 2025<br>
-            PhD Candidate, Data Science and Information Technology
-            
+            <div class="institution-logo">
+                <img src="Tsinghua_Uni.png" alt="Tsinghua University Logo">
+            </div>
+            <div class="institution-details">
+                <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>
+                <p><strong>PhD Candidate, Data Science and Information Technology</strong></p>
+                <p>August 11, 2021 - July 1, 2025</p>
+            </div>
         </div>
+
         <div class="institution">
-            <img class="institution-logo" src="Hust.png" alt="HUST Logo">
-            <a href="https://english.hust.edu.cn">Huazhong University of Science and Technology</a><br>
-            Bachelor & Master Student, Optical Engineering & Software Engineering
-            
+            <div class="institution-logo">
+                <img src="Hust.png" alt="HUST Logo">
+            </div>
+            <div class="institution-details">
+                <a href="https://english.hust.edu.cn">Huazhong University of Science and Technology</a>
+                <p><strong>Bachelor & Master Student, Optical Engineering & Software Engineering</strong></p>
+            </div>
         </div>
-    </div>
-    <div class="publications">
-        <h3>RECENT PUBLICATIONS</h3>
-        <div class="publication">
-            <a href='https://www.sciencedirect.com/science/article/pii/S1361841524000318' target='_blank'>DOVE: Doodled vessel enhancement for photoacoustic angiography super resolution</a>, <a href="https://github.com/yuanzhengthu/handDrawnPAAImages">Project</a> - 2024-02-13, <a href="https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail">TOP ONE</a>
+    </section>
+
+    <!-- Recent Publications Section -->
+    <section class="section publications">
+        <h2>Recent Publications</h2>
+
+        <div class="item">
+            <a href='https://www.sciencedirect.com/science/article/pii/S1361841524000318' target='_blank'>DOVE: Doodled vessel enhancement for photoacoustic angiography super resolution</a> | <a href="https://github.com/yuanzhengthu/handDrawnPAAImages">Project</a>
+            <p>2024-02-13 | <a href="https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail">TOP ONE</a></p>
         </div>
-        <div class="publication">
-            <a href='https://ieeexplore.ieee.org/abstract/document/10368794' target='_blank'>Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughout Super-Resolution 3D Image Reconstruction</a>, <a href="https://github.com/yuanzhengthu/3DReconstruction_Organoid">Project</a> - 2023-11-04, BEST PAPER
+
+        <div class="item">
+            <a href='https://ieeexplore.ieee.org/abstract/document/10368794' target='_blank'>Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughput Super-Resolution 3D Image Reconstruction</a> | <a href="https://github.com/yuanzhengthu/3DReconstruction_Organoid">Project</a>
+            <p>2023-11-04 | BEST PAPER</p>
         </div>
-        <div class="publication">
-            <a href='https://ieeexplore.ieee.org/abstract/document/10209822' target='_blank'>Regulation of Non-Hermiticity in Spiral Microring Add-Drop Filters</a> - 2022-07-02
+
+        <div class="item">
+            <a href='https://ieeexplore.ieee.org/abstract/document/10209822' target='_blank'>Regulation of Non-Hermiticity in Spiral Microring Add-Drop Filters</a>
+            <p>2022-07-02</p>
         </div>
-        <div class="publication">
-            <a href='https://arxiv.org/abs/2306.14487' target='_blank'>Iterative-in-Iterative Super-Resolution Biomedical Imaging Using One Real Image</a>, <a href="https://github.com/yuanzhengthu/Iterative-in-Iterative-SR-for-Biomedical-Imaging-Using-a-Single-HR-Authentic-Image">Project</a> - 2023-06-26, BEST STUDENT PRESENTATION
+
+        <div class="item">
+            <a href='https://arxiv.org/abs/2306.14487' target='_blank'>Iterative-in-Iterative Super-Resolution Biomedical Imaging Using One Real Image</a> | <a href="https://github.com/yuanzhengthu/Iterative-in-Iterative-SR-for-Biomedical-Imaging-Using-a-Single-HR-Authentic-Image">Project</a>
+            <p>2023-06-26 | BEST STUDENT PRESENTATION</p>
         </div>
-        <div class="publication">
-            <a href='https://opg.optica.org/abstract.cfm?uri=CLEO_AT-2023-JTu2A.51' target='_blank'>Super-Resolution Photoacoustic Angiography Assisted by Images Forged from Hand-Drawn Graffiti</a>, <a href="https://github.com/yuanzhengthu/handDrawnPAAImages">Project</a> - 2023-05-07
+
+        <div class="item">
+            <a href='https://opg.optica.org/abstract.cfm?uri=CLEO_AT-2023-JTu2A.51' target='_blank'>Super-Resolution Photoacoustic Angiography Assisted by Images Forged from Hand-Drawn Graffiti</a> | <a href="https://github.com/yuanzhengthu/handDrawnPAAImages">Project</a>
+            <p>2023-05-07</p>
         </div>
-        <div class="publication">
-            <a href='https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-2/issue-4/046001/Photoacoustic-enabled-automatic-vascular-navigation--accurate-and-naked-eye/10.1117/1.APN.2.4.046001.full' target='_blank'>Photoacoustic-enabled automatic vascular navigation: accurate and naked-eye real-time visualization of deep-seated vessels</a> - 2023-05-07, <a href="https://www.letpub.com.cn/index.php?journalid=32772&page=journalapp&view=detail">TOP JOURNAL</a>
+
+        <div class="item">
+            <a href='https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-2/issue-4/046001/Photoacoustic-enabled-automatic-vascular-navigation--accurate-and-naked-eye/10.1117/1.APN.2.4.046001.full' target='_blank'>Photoacoustic-enabled automatic vascular navigation: accurate and naked-eye real-time visualization of deep-seated vessels</a>
+            <p>2023-05-07 | <a href="https://www.letpub.com.cn/index.php?journalid=32772&page=journalapp&view=detail">TOP JOURNAL</a></p>
         </div>
-        <div class="publication">
-            <a href='https://ieeexplore.ieee.org/abstract/document/10088714' target='_blank'>Facile Imaging-Based Plasmonic Biosensing Augmented by Deep Learning</a> - 2022-11-05
+
+        <div class="item">
+            <a href='https://ieeexplore.ieee.org/abstract/document/10088714' target='_blank'>Facile Imaging-Based Plasmonic Biosensing Augmented by Deep Learning</a>
+            <p>2022-11-05</p>
         </div>
-    </div>
-    <div class="skills">
-        <h3>SKILLS</h3>
-        <div class="skill">
-            Programming on Embedded Devices - 2011-02-01, <a href="https://yuanzhengthu.github.io">Project</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills">
+        <h2>Skills</h2>
+
+        <div class="item">
+            <p><strong>Programming on Embedded Devices</strong> | Started: 2011-02-01 | <a href="https://yuanzhengthu.github.io">Project</a></p>
         </div>
-        <div class="skill">
-            Deep Learning - 2016-05-23, <a href="https://yuanzhengthu.github.io">Project</a>
+
+        <div class="item">
+            <p><strong>Deep Learning</strong> | Started: 2016-05-23 | <a href="https://yuanzhengthu.github.io">Project</a></p>
         </div>
-        <div class="skill">
-            Robotics - 2019-09-01, <a href="https://yuanzhengthu.github.io">Project</a>
+
+        <div class="item">
+            <p><strong>Robotics</strong> | Started: 2019-09-01 | <a href="https://yuanzhengthu.github.io">Project</a></p>
         </div>
-        <div class="skill">
-            Beam Path Designing - 2019-09-01, <a href="https://yuanzhengthu.github.io">Project</a>
+
+        <div class="item">
+            <p><strong>Beam Path Designing</strong> | Started: 2019-09-01 | <a href="https://yuanzhengthu.github.io">Project</a></p>
         </div>
-    </div>
-    <div class="experience">
-        <h3>RESEARCH EXPERIENCE</h3>
-        <div class="experience-item">
-            <strong>Guangdong Photoacoustic Medical Technology Co., Ltd.</strong><br>
-            Position: Algorithm Engineer (Internship)<br>
-            Duration: January 2022 - June 2022<br>
-            Location: Guangzhou, China<br>
-            Key Responsibilities:
+    </section>
+
+    <!-- Research Experience Section -->
+    <section class="section experience">
+        <h2>Research Experience</h2>
+
+        <div class="item">
+            <h3>Guangdong Photoacoustic Medical Technology Co., Ltd.</h3>
+            <p><strong>Position:</strong> Algorithm Engineer (Internship)</p>
+            <p><strong>Duration:</strong> January 2022 - June 2022</p>
+            <p><strong>Location:</strong> Guangzhou, China</p>
+            <p><strong>Key Responsibilities:</strong></p>
             <ul>
                 <li>Designed graphical user interfaces (GUIs) using the Qt framework.</li>
                 <li>Deployed deep learning models to enhance imaging algorithms.</li>
                 <li>Improved the speed of microscopy imaging processes.</li>
             </ul>
         </div>
-        <div class="experience-item">
-            <strong>South China Normal University</strong><br>
-            Position: Group Leader of Computational Photoacoustic Microscopy<br>
-            Duration: September 2020 - June 2022<br>
-            Location: Guangzhou, China<br>
-            Key Responsibilities:
+
+        <div class="item">
+            <h3>South China Normal University</h3>
+            <p><strong>Position:</strong> Group Leader of Computational Photoacoustic Microscopy</p>
+            <p><strong>Duration:</strong> September 2020 - June 2022</p>
+            <p><strong>Location:</strong> Guangzhou, China</p>
+            <p><strong>Key Responsibilities:</strong></p>
             <ul>
                 <li>Conducted research in computer vision and its applications in photoacoustic microscopy.</li>
                 <li>Developed and optimized the beam path for photoacoustic microscopy systems.</li>
                 <li>Mentored students and provided guidance in their research projects.</li>
             </ul>
         </div>
-    </div>
-    <div class="awards">
-        <h3>HONORS & AWARDS</h3>
-        <div class="award">The 16th Challenge Cup, Science and Technology Innovation Class A, Second Prize - June 2021</div>
-        <div class="award">The First Prize in The Second Creative Association Entrepreneurship Competition - November 2021</div>
-        <div class="award">Outstanding Student Report in BPC2023 - June 2023</div>
-        <div class="award">The First Prize in Tsinghua-Berkeley Retreat2023 - July 2023</div>
-        <div class="award">Best Student Paper in ACP/POEM 2023 - October 2023</div>
-    </div>
-    <div class="miscellaneous">
-        <h3>MISCELLANEOUS</h3>
-        <div class="misc-item">Basketball</div>
-        <div class="misc-item">Badminton</div>
-        <div class="misc-item">Guitar</div>
-    </div>
+    </section>
+
+    <!-- Honors & Awards Section -->
+    <section class="section awards">
+        <h2>Honors & Awards</h2>
+
+        <div class="item">
+            <p>The 16th Challenge Cup, Science and Technology Innovation Class A, Second Prize - June 2021</p>
+        </div>
+        <div class="item">
+            <p>The First Prize in The Second Creative Association Entrepreneurship Competition - November 2021</p>
+        </div>
+        <div class="item">
+            <p>Outstanding Student Report in BPC2023 - June 2023</p>
+        </div>
+        <div class="item">
+            <p>The First Prize in Tsinghua-Berkeley Retreat2023 - July 2023</p>
+        </div>
+        <div class="item">
+            <p>Best Student Paper in ACP/POEM 2023 - October 2023</p>
+        </div>
+    </section>
+
+    <!-- Miscellaneous Section -->
+    <section class="section miscellaneous">
+        <h2>Miscellaneous</h2>
+
+        <div class="item">
+            <p>🎵 <strong>Guitar</strong></p>
+        </div>
+        <div class="item">
+            <p>🏸 <strong>Badminton</strong></p>
+        </div>
+        <div class="item">
+            <p>🏀 <strong>Basketball</strong></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Yuanzheng MA. All rights reserved.</p>
+    </footer>
 </body>
 </html>
