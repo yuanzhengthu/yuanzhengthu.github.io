@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Updates - Yuanzheng MA</title>
+    <title>Yuanzheng MA's Updates</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+    <!-- Updated Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-2ltVGuLbd4bF4l0qG0e0JXtUFeM7vlRMLxz0N3cgyed5IVpWZwXm3bV3VbV2z3sTadWlw6xK6czI4iF6JgXQnQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         /* Reset */
         * {
@@ -13,7 +18,7 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Montserrat', sans-serif;
             color: #333;
             line-height: 1.6;
             background-color: #f9f9f9;
@@ -23,7 +28,8 @@
         .navbar {
             background-color: #fff;
             padding: 20px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
             border-bottom: 1px solid #e0e0e0;
             position: sticky;
             top: 0;
@@ -34,7 +40,7 @@
             margin: 0 15px;
             text-decoration: none;
             color: #333;
-            font-weight: bold;
+            font-weight: 600;
             transition: color 0.3s;
         }
 
@@ -44,12 +50,19 @@
 
         /* Header Section */
         .header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
             padding: 40px 20px;
             background-color: #fff;
+        }
+
+        .info {
+            flex: 1 1 100%;
             text-align: center;
         }
 
-        .header h1 {
+        .info h1 {
             font-size: 2em;
             margin-bottom: 10px;
             color: #007BFF;
@@ -59,6 +72,14 @@
         .news-section {
             padding: 40px 20px;
             background-color: #fff;
+            margin-top: 20px;
+        }
+
+        .news-section h2 {
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007BFF;
+            display: inline-block;
+            padding-bottom: 5px;
         }
 
         .news-item {
@@ -77,18 +98,19 @@
         }
 
         .news-item ul li {
-            margin-bottom: 10px;
-            padding-left: 20px;
             position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
         }
 
         .news-item ul li::before {
-            content: "•";
+            content: "\f0a9";
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
             position: absolute;
             left: 0;
+            top: 0;
             color: #007BFF;
-            font-size: 1.2em;
-            line-height: 1;
         }
 
         .news-image {
@@ -105,6 +127,7 @@
             text-align: center;
             background-color: #fff;
             border-top: 1px solid #e0e0e0;
+            margin-top: 20px;
         }
 
         .footer p {
@@ -114,9 +137,12 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            .navbar {
+                flex-wrap: wrap;
+            }
+
             .navbar a {
-                display: block;
-                margin: 10px 0;
+                margin: 10px;
             }
         }
     </style>
@@ -132,7 +158,9 @@
 
     <!-- Header Section -->
     <header class="header">
-        <h1>Updates</h1>
+        <div class="info">
+            <h1>Updates</h1>
+        </div>
     </header>
 
     <!-- News Section -->
@@ -141,7 +169,7 @@
         <div class="news-item">
             <h3>February 17, 2024</h3>
             <ul>
-                <li><strong>CLEO2024:</strong> My paper titled "Enhancing Underwater Imaging for Robot through Embedded Polarization Neural Network (AF2D.4)" got accepted by CLEO2024! Can't wait to present it in person at the prestigious Charlotte Convention Center, Charlotte, North Carolina, USA, from May 5-10, 2024.</li>
+                <li>🚀 <strong>CLEO2024:</strong> My paper titled "Enhancing Underwater Imaging for Robot through Embedded Polarization Neural Network (AF2D.4)" got accepted by CLEO2024! Can't wait to present it in-person at the prestigious Charlotte Convention Center, Charlotte, North Carolina, USA, from May 5-10, 2024.</li>
             </ul>
         </div>
 
@@ -151,7 +179,7 @@
         <div class="news-item">
             <h3>November 4, 2023</h3>
             <ul>
-                <li><strong>ACP2023:</strong> Presented my paper titled "Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughput Super-Resolution 3D Image Reconstruction" at ACP2023 and won the prestigious "Best Paper Prize."</li>
+                <li>🌟 <strong>ACP2023:</strong> Presented my paper titled "Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughput Super-Resolution 3D Image Reconstruction" at ACP2023 and won the prestigious "Best Paper Prize."</li>
             </ul>
             <img class="news-image" src="pics/acp2023-3.jpg" alt="ACP2023">
         </div>
