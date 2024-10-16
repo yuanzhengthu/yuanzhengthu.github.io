@@ -3,58 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuanzheng MA's Homepage</title>
+    <title>Yuanzheng MA's Publications</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <style>
+        /* Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
         }
+
+        /* Navigation Bar */
         .navbar {
-            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid #e0e0e0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
+
         .navbar a {
-            margin-right: 15px;
+            margin: 0 15px;
             text-decoration: none;
-            color: black;
+            color: #333;
+            font-weight: 600;
+            transition: color 0.3s;
         }
+
+        .navbar a:hover {
+            color: #007BFF;
+        }
+
+        /* Header Section */
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+
         .profile-pic {
-            float: left;
-            width: 138px;
+            flex: 1 1 150px;
+            max-width: 150px;
+            margin-right: 40px;
+            border-radius: 50%;
+            overflow: hidden;
         }
+
+        .profile-pic img {
+            width: 100%;
+            height: auto;
+        }
+
         .info {
-            margin-left: 150px;
+            flex: 2 1 300px;
         }
-        .news {
-            clear: both;
-            margin-top: 40px;
+
+        .info h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #007BFF;
+        }
+
+        /* Sections */
+        .section {
+            padding: 40px 20px;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007BFF;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Publications */
+        .publications ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .publications li {
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .publications li::before {
+            content: "\f0da";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #007BFF;
+        }
+
+        .publications li a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .publications li a:hover {
+            text-decoration: underline;
+        }
+
+        .publications li p {
+            margin-top: 5px;
+            color: #555;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 20px;
+        }
+
+        .footer p {
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .info h1 {
+                font-size: 1.8em;
+            }
+
+            .navbar {
+                flex-wrap: wrap;
+            }
+
+            .navbar a {
+                margin: 10px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="../index.html">MAIN PAGE</a> |
-        <a href="../CV/index.html">CV</a> |
-        <a href="../ACTIVATIES/index.html">UPDATES</a> |
-        <a href="../PUBLICATIONS/index.html">PUBLICATIONS</a>
-    </div>
-    <h3>PUBLICATIONS</h3>
-<ol>
-    <li>Ma, Y., Pan, S., Marsh, P., Guan, X. "Enhancing Underwater Imaging for Robot through Embedded Polarization Neural Network." In <i>Proceedings of the CLEO 2024</i>, Charlotte, North Carolina, (2024).</li>
-    <li>Ma, Y., Zhou, W., Ma, R. et al. "DOVE: Doodled Vessel Enhancement for Photoacoustic Angiography Super Resolution." <i>Medical Image Analysis</i>, (2024).</li>
-    <li>Ma, Y., Khutsishvili, D., Wang, Z. et al. "Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughput Super-Resolution 3D Image Reconstruction." In <i>Proceedings of the 2023 Asia Communications and Photonics Conference (ACP)</i>, (2023). [Best student paper award]</li>
-    <li>Ma, Y., Wang, X., Zhao, B. et al. "Iterative-in-iterative super-resolution biomedical imaging using one real image." <i>SPIE</i>, (2023). [Best presentation award]</li>
-    <li>Ma, Y., Guan, X. "Super-Resolution Photoacoustic Angiography Assisted by Images Forged from Hand-Drawn Graffiti." In <i>Proceedings of the CLEO 2023</i>, San Jose, CA, 2023/05/07, (2023).</li>
-    <li>Pan, S., Wang, L., Ma, Y. et al. "Photoacoustic-enabled automatic vascular navigation: accurate and naked-eye real-time visualization of deep-seated vessels." <i>Advanced Photonics Nexus</i>, 2(4):046001 (2023 Jul 1).</li>
-    <li>Chen, Y., Xu, K., Guan, X., Ma, Y., Wang, J. "Regulation of Non-Hermiticity in Spiral Microring Add-Drop Filters." In <i>Proceedings of the 2023 Opto-Electronics and Communications Conference (OECC)</i>, pp. 1-3, (2023).</li>
-    <li>Ma, Y., Xiong, K., Hou, X. et al. "Cascade neural approximating for few-shot super-resolution photoacoustic angiography." <i>Applied Physics Letters</i>, 121(10):103701 (2022).</li>
-    <li>Wu, L., Ma, Y., Guan, X. et al. "Facile Imaging-Based Plasmonic Biosensing Augmented by Deep Learning." In <i>Proceedings of the 2022 Asia Communications and Photonics Conference (ACP)</i>, 2022/11/05-08, (2022).</li>
-    <li>Wu, L., Cheng, Z., Ma, Y. et al. "A handheld microwave thermoacoustic imaging system with an impedance matching microwave-sono probe for breast tumor screening." <i>IEEE Transactions on Medical Imaging</i>, 62: 2–9, (2021).</li>
-    <li>Wang, H., Ma, Y., Zhao, S. et al. "Fabry-Pérot interference principle-based non-contact thermoacoustic imaging system for breast tumor screening." <i>Applied Physics Letters</i>, 119(14), (2021).</li>
-    <li>Sun, M., Ma, Y., Tong, Z. et al. "High-security photoacoustic identity recognition by capturing hierarchical vascular structure of finger." <i>Journal of Biophotonics</i>, 14(8): 1–7, (2021).</li>
-    <li>Zhang, F., Zhang, W., Li, C., Tong, Z., Ma, Y., Xiong, K. "Photoacoustic Microscopy for Injection Navigation of Microplastic Surgery." <i>Chinese Journal of Lasers</i>, 48(21): 2107002, (2021).</li>
-    <li>Lu, C., Xiong, K., Ma, Y., Zhang, W. et al. "Electrothermal-MEMS-induced nonlinear distortion correction in photoacoustic laparoscopy." <i>Optics Express</i>, 28(10): 15300, (2020).</li>
-    <li>Ma, Y., Lu, C., Xiong, K. et al. "Spatial weight matrix in dimensionality reduction reconstruction for micro-electromechanical system-based photoacoustic microscopy." <i>Visual Computing for Industry, Biomedicine, and Art</i>, 3(1): 22, (2020).</li>
-    <li>Xiong, K., Li, C., Ma, Y. et al. "Random subsampling and morphological filtering-based nonlinear distortion correction in photoacoustic microscopy." Patents No.: 202210746900.5.</li>
-</ol>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="../index.html">Main Page</a>
+        <a href="../CV/index.html">CV</a>
+        <a href="../ACTIVITIES/index.html">Updates</a>
+        <a href="index.html">Publications</a>
+    </nav>
 
+    <!-- Header Section -->
+    <header class="header">
+        <div class="profile-pic">
+            <img src="../CV/1708975869150.jpg" alt="Yuanzheng MA">
+        </div>
+        <div class="info">
+            <h1>Publications</h1>
+        </div>
+    </header>
+
+    <!-- Publications Section -->
+    <section class="section publications">
+        <h2>Recent Publications</h2>
+        <ul>
+            <!-- Publication 1 -->
+            <li>
+                <strong>Enhancing Underwater Imaging for Robot through Embedded Polarization Neural Network</strong><br>
+                <em>Ma, Y., Pan, S., Marsh, P., Guan, X.</em><br>
+                In <em>Proceedings of the CLEO 2024</em>, Charlotte, North Carolina, (2024).
+            </li>
+            <!-- Publication 2 -->
+            <li>
+                <a href="https://www.sciencedirect.com/science/article/pii/S1361841524000318" target="_blank">DOVE: Doodled Vessel Enhancement for Photoacoustic Angiography Super Resolution</a><br>
+                <em>Ma, Y., Zhou, W., Ma, R. et al.</em><br>
+                <em>Medical Image Analysis</em>, (2024).
+            </li>
+            <!-- Publication 3 -->
+            <li>
+                <a href="https://ieeexplore.ieee.org/abstract/document/10368794" target="_blank">Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughput Super-Resolution 3D Image Reconstruction</a><br>
+                <em>Ma, Y., Khutsishvili, D., Wang, Z. et al.</em><br>
+                In <em>Proceedings of the 2023 Asia Communications and Photonics Conference (ACP)</em>, (2023). <strong>[Best student paper award]</strong>
+            </li>
+            <!-- Publication 4 -->
+            <li>
+                <a href="https://arxiv.org/abs/2306.14487" target="_blank">Iterative-in-iterative Super-Resolution Biomedical Imaging Using One Real Image</a><br>
+                <em>Ma, Y., Wang, X., Zhao, B. et al.</em><br>
+                <em>SPIE</em>, (2023). <strong>[Best presentation award]</strong>
+            </li>
+            <!-- Publication 5 -->
+            <li>
+                <a href="https://opg.optica.org/abstract.cfm?uri=CLEO_AT-2023-JTu2A.51" target="_blank">Super-Resolution Photoacoustic Angiography Assisted by Images Forged from Hand-Drawn Graffiti</a><br>
+                <em>Ma, Y., Guan, X.</em><br>
+                In <em>Proceedings of the CLEO 2023</em>, San Jose, CA, 2023/05/07, (2023).
+            </li>
+            <!-- Publication 6 -->
+            <li>
+                <a href="https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-2/issue-4/046001/" target="_blank">Photoacoustic-Enabled Automatic Vascular Navigation: Accurate and Naked-Eye Real-Time Visualization of Deep-Seated Vessels</a><br>
+                <em>Pan, S., Wang, L., Ma, Y. et al.</em><br>
+                <em>Advanced Photonics Nexus</em>, 2(4):046001 (2023 Jul 1).
+            </li>
+            <!-- Publication 7 -->
+            <li>
+                <a href="https://ieeexplore.ieee.org/abstract/document/10209822" target="_blank">Regulation of Non-Hermiticity in Spiral Microring Add-Drop Filters</a><br>
+                <em>Chen, Y., Xu, K., Guan, X., Ma, Y., Wang, J.</em><br>
+                In <em>Proceedings of the 2023 Opto-Electronics and Communications Conference (OECC)</em>, pp. 1-3, (2023).
+            </li>
+            <!-- Publication 8 -->
+            <li>
+                <a href="https://aip.scitation.org/doi/10.1063/5.0101476" target="_blank">Cascade Neural Approximating for Few-Shot Super-Resolution Photoacoustic Angiography</a><br>
+                <em>Ma, Y., Xiong, K., Hou, X. et al.</em><br>
+                <em>Applied Physics Letters</em>, 121(10):103701 (2022).
+            </li>
+            <!-- Publication 9 -->
+            <li>
+                <strong>Facile Imaging-Based Plasmonic Biosensing Augmented by Deep Learning</strong><br>
+                <em>Wu, L., Ma, Y., Guan, X. et al.</em><br>
+                In <em>Proceedings of the 2022 Asia Communications and Photonics Conference (ACP)</em>, 2022/11/05-08, (2022).
+            </li>
+            <!-- Publication 10 -->
+            <li>
+                <strong>A Handheld Microwave Thermoacoustic Imaging System with an Impedance Matching Microwave-Sono Probe for Breast Tumor Screening</strong><br>
+                <em>Wu, L., Cheng, Z., Ma, Y. et al.</em><br>
+                <em>IEEE Transactions on Medical Imaging</em>, 62: 2–9, (2021).
+            </li>
+            <!-- Publication 11 -->
+            <li>
+                <strong>Fabry-Pérot Interference Principle-Based Non-Contact Thermoacoustic Imaging System for Breast Tumor Screening</strong><br>
+                <em>Wang, H., Ma, Y., Zhao, S. et al.</em><br>
+                <em>Applied Physics Letters</em>, 119(14), (2021).
+            </li>
+            <!-- Publication 12 -->
+            <li>
+                <strong>High-Security Photoacoustic Identity Recognition by Capturing Hierarchical Vascular Structure of Finger</strong><br>
+                <em>Sun, M., Ma, Y., Tong, Z. et al.</em><br>
+                <em>Journal of Biophotonics</em>, 14(8): 1–7, (2021).
+            </li>
+            <!-- Publication 13 -->
+            <li>
+                <strong>Photoacoustic Microscopy for Injection Navigation of Microplastic Surgery</strong><br>
+                <em>Zhang, F., Zhang, W., Li, C., Tong, Z., Ma, Y., Xiong, K.</em><br>
+                <em>Chinese Journal of Lasers</em>, 48(21): 2107002, (2021).
+            </li>
+            <!-- Publication 14 -->
+            <li>
+                <strong>Electrothermal-MEMS-Induced Nonlinear Distortion Correction in Photoacoustic Laparoscopy</strong><br>
+                <em>Lu, C., Xiong, K., Ma, Y., Zhang, W. et al.</em><br>
+                <em>Optics Express</em>, 28(10): 15300, (2020).
+            </li>
+            <!-- Publication 15 -->
+            <li>
+                <strong>Spatial Weight Matrix in Dimensionality Reduction Reconstruction for Micro-Electromechanical System-Based Photoacoustic Microscopy</strong><br>
+                <em>Ma, Y., Lu, C., Xiong, K. et al.</em><br>
+                <em>Visual Computing for Industry, Biomedicine, and Art</em>, 3(1): 22, (2020).
+            </li>
+            <!-- Publication 16 -->
+            <li>
+                <strong>Random Subsampling and Morphological Filtering-Based Nonlinear Distortion Correction in Photoacoustic Microscopy</strong><br>
+                <em>Xiong, K., Li, C., Ma, Y. et al.</em><br>
+                Patent No.: 202210746900.5
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Yuanzheng MA. All rights reserved.</p>
+    </footer>
 </body>
 </html>
