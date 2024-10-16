@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Updates - Yuanzheng MA</title>
+    <title>Yuanzheng MA's Updates</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <style>
         /* Reset */
         * {
@@ -13,7 +18,7 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Montserrat', sans-serif;
             color: #333;
             line-height: 1.6;
             background-color: #f9f9f9;
@@ -23,7 +28,8 @@
         .navbar {
             background-color: #fff;
             padding: 20px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
             border-bottom: 1px solid #e0e0e0;
             position: sticky;
             top: 0;
@@ -34,7 +40,7 @@
             margin: 0 15px;
             text-decoration: none;
             color: #333;
-            font-weight: bold;
+            font-weight: 600;
             transition: color 0.3s;
         }
 
@@ -44,12 +50,19 @@
 
         /* Header Section */
         .header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
             padding: 40px 20px;
             background-color: #fff;
+        }
+
+        .info {
+            flex: 1 1 100%;
             text-align: center;
         }
 
-        .header h1 {
+        .info h1 {
             font-size: 2em;
             margin-bottom: 10px;
             color: #007BFF;
@@ -59,6 +72,14 @@
         .news-section {
             padding: 40px 20px;
             background-color: #fff;
+            margin-top: 20px;
+        }
+
+        .news-section h2 {
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007BFF;
+            display: inline-block;
+            padding-bottom: 5px;
         }
 
         .news-item {
@@ -77,18 +98,19 @@
         }
 
         .news-item ul li {
-            margin-bottom: 10px;
-            padding-left: 20px;
             position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
         }
 
         .news-item ul li::before {
-            content: "•";
+            content: "\f0da";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
             position: absolute;
             left: 0;
+            top: 0;
             color: #007BFF;
-            font-size: 1.2em;
-            line-height: 1;
         }
 
         .news-image {
@@ -105,6 +127,7 @@
             text-align: center;
             background-color: #fff;
             border-top: 1px solid #e0e0e0;
+            margin-top: 20px;
         }
 
         .footer p {
@@ -114,9 +137,12 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            .navbar {
+                flex-wrap: wrap;
+            }
+
             .navbar a {
-                display: block;
-                margin: 10px 0;
+                margin: 10px;
             }
         }
     </style>
@@ -126,13 +152,15 @@
     <nav class="navbar">
         <a href="../index.html">Main Page</a>
         <a href="../CV/index.html">CV</a>
-        <a href="../ACTIVITIES/index.html">Updates</a>
+        <a href="index.html">Updates</a>
         <a href="../PUBLICATIONS/index.html">Publications</a>
     </nav>
 
     <!-- Header Section -->
     <header class="header">
-        <h1>Updates</h1>
+        <div class="info">
+            <h1>Updates</h1>
+        </div>
     </header>
 
     <!-- News Section -->
@@ -141,23 +169,133 @@
         <div class="news-item">
             <h3>February 17, 2024</h3>
             <ul>
-                <li><strong>CLEO2024:</strong> My paper titled "Enhancing Underwater Imaging for Robot through Embedded Polarization Neural Network (AF2D.4)" got accepted by CLEO2024! Can't wait to present it in person at the prestigious Charlotte Convention Center, Charlotte, North Carolina, USA, from May 5-10, 2024.</li>
+                <li>🚀 <strong>CLEO2024:</strong> My paper titled "Enhancing Underwater Imaging for Robot through Embedded Polarization Neural Network (AF2D.4)" got accepted by CLEO2024! Can't wait to present it in-person at the prestigious Charlotte Convention Center, Charlotte, North Carolina, USA, from May 5-10, 2024.</li>
             </ul>
         </div>
 
-        <!-- Additional news items go here -->
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>February 13, 2024</h3>
+            <ul>
+                <li>🎉 <strong>MedIA!</strong> My first top-tier paper was officially accepted by Medical Image Analysis. A milestone in my research journey!</li>
+            </ul>
+        </div>
+
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>December 9, 2023</h3>
+            <ul>
+                <li>🤝 <strong>Alumni:</strong> Attended the Alumni annual meeting of HUST. Great to connect with fellow alumni and share our experiences.</li>
+            </ul>
+        </div>
+
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>November 25, 2023</h3>
+            <ul>
+                <li>🏆 <strong>Teamwork:</strong> Led an amazing team to join the SDG competition. Together with Yuqi Wang, Yi Hao, Xuanyi Liu, Jin Li, Yubing Wang, and myself, we showcased our incredible teamwork and completed the challenge with flying colors.</li>
+            </ul>
+        </div>
+
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>November 12, 2023</h3>
+            <ul>
+                <li>🏸 <strong>Badminton:</strong> Clinched the third prize in the "Welcome Cup" badminton competition of Tsinghua-SIGS. Proud of my team's performance!</li>
+            </ul>
+        </div>
 
         <!-- News Item with Image -->
         <div class="news-item">
             <h3>November 4, 2023</h3>
             <ul>
-                <li><strong>ACP2023:</strong> Presented my paper titled "Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughput Super-Resolution 3D Image Reconstruction" at ACP2023 and won the prestigious "Best Paper Prize."</li>
+                <li>🌟 <strong>ACP2023:</strong> Presented my paper titled "Exploring the Neural Organoid in High Definition: Physics-Inspired High-Throughput Super-Resolution 3D Image Reconstruction" at ACP2023 and won the prestigious "Best Paper Prize."</li>
             </ul>
             <img class="news-image" src="pics/acp2023-3.jpg" alt="ACP2023">
         </div>
 
-        <!-- Continue adding news items as needed -->
+        <!-- News Item with Image -->
+        <div class="news-item">
+            <h3>July 7, 2023</h3>
+            <ul>
+                <li>🥇 <strong>Retreat23:</strong> Led my team members Yingfei Sun, Zeihui Yu, Junhui Xu, Zuohong Chen, and Bro David to win the first prize of Retreat2023. A testament to our teamwork and dedication!</li>
+            </ul>
+            <img class="news-image" src="pics/retreat2023.jpg" alt="Retreat2023">
+        </div>
 
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>July 3, 2023</h3>
+            <ul>
+                <li>📚 <strong>WOLIT'23:</strong> Attended the WOLIT’23 workshop at Qilin Mountain Villa. It was an enriching experience meeting Professor Yi MA and other eminent professors in my field.</li>
+            </ul>
+        </div>
+
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>July 1, 2023</h3>
+            <ul>
+                <li>🌍 <strong>Group Travel:</strong> Embarked on a practice journey to Guangzhou with Qian Zhang. It was a great learning and bonding experience.</li>
+            </ul>
+        </div>
+
+        <!-- News Item with Image -->
+        <div class="news-item">
+            <h3>June 10, 2023</h3>
+            <ul>
+                <li>🎤 <strong>BPC2023:</strong> Attended the BPC2023 conference in Shanghai with Bro David and clinched the Best Presentation award for my report titled "Medical Image Super-resolution Reconstruction Using a Single Image Based on Nested Iterative Neural Networks." A proud moment shared with my excellent collaborators Xinyue Wang, Benqi Zhao, Ying Xiao, and Professor Guan.</li>
+            </ul>
+            <img class="news-image" src="pics/bpc2023.jpg" alt="BPC2023">
+        </div>
+
+        <!-- News Item with Image -->
+        <div class="news-item">
+            <h3>May 5, 2023</h3>
+            <ul>
+                <li>🌉 <strong>CLEO2023:</strong> Traveled to San Jose, CA, United States, to present my report titled "Super-Resolution Photoacoustic Angiography Assisted by Images Forged from Hand-Drawn Graffiti (JTu2A.51)." Had the privilege of meeting Professor Leslie A. Rusch and engaging in a meaningful conversation.</li>
+            </ul>
+            <img class="news-image" src="pics/cleo2023.jpg" alt="CLEO2023">
+        </div>
+
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>April 2, 2023</h3>
+            <ul>
+                <li>🛫 <strong>PTF2023:</strong> Attended the "Third National Photonic Technology Forum" in Baiyun District, Guangzhou, and delivered a presentation titled "Few-shot Super-resolution Angiography Based on Nested Iteration." An insightful experience at the subforum of "Optical display and optical information processing."</li>
+            </ul>
+        </div>
+
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>March 2, 2023</h3>
+            <ul>
+                <li>🏅 <strong>Badminton:</strong> Secured the fourth prize in the "Teacher-Student Cup" of Tsinghua-SIGS. A reminder that there's always room for improvement in cross-cooperation between teachers and students.</li>
+            </ul>
+        </div>
+
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>February 2023</h3>
+            <ul>
+                <li>📜 <strong>CLEO2023:</strong> Published my very first conference paper at CLEO2023, the top-tier conference for optical applications. A significant milestone in my academic journey!</li>
+            </ul>
+        </div>
+
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>November 5, 2022</h3>
+            <ul>
+                <li>🏆 <strong>Badminton:</strong> Triumphed in the "Welcome Cup" badminton competition of Tsinghua-SIGS with an impressive performance. A proud moment for the team!</li>
+            </ul>
+        </div>
+
+        <!-- News Item -->
+        <div class="news-item">
+            <h3>September 4, 2022</h3>
+            <ul>
+                <li>📰 <strong>Article:</strong> My second paper titled "Cascade neural approximating for few-shot super-resolution photoacoustic angiography" made its way into one of the best physics journals, Applied Physics Letters.</li>
+            </ul>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -166,4 +304,3 @@
     </footer>
 </body>
 </html>
-
