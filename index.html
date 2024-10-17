@@ -177,7 +177,51 @@
             transform: translateY(-5px);
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
+        
+        /* Paper Reviews Section */
+        .paper-reviews {
+            padding: 40px 20px;
+            background-color: #fff;
+            margin-top: 20px;
+        }
 
+        .paper-reviews h2 {
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007BFF;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .reviews-list {
+            margin-bottom: 30px;
+        }
+
+        .reviews-list h3 {
+            font-size: 1.2em;
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        .reviews-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .reviews-list ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .reviews-list ul li::before {
+            content: "\f0a9";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #007BFF;
+        }
         /* Footer */
         .footer {
             padding: 20px;
@@ -502,6 +546,31 @@
                 <img src="ACTIVITIES/pics/pc2023.jpg" alt="Photonics Forum in Guangzhou">
                 <p>Photonics Forum in Guangzhou</p>
             </div>
+        </div>
+    </section>
+
+    <!-- Paper Reviews Section -->
+    <section class="paper-reviews">
+        <h2>Paper Reviews</h2>
+
+        <!-- Journal Paper Reviews -->
+        <div class="reviews-list">
+            <h3>Journal Paper Reviews for</h3>
+            <ul>
+                <li>Medical Image Analysis</li>
+                <li>IEEE Transactions on Medical Imaging</li>
+                <li>Pattern Recognition</li>
+                <li>IEEE Journal of Biomedical and Health Informatics</li>
+                <li>Applied Physics Letters</li>
+            </ul>
+        </div>
+
+        <!-- Conference Paper Reviews -->
+        <div class="reviews-list">
+            <h3>Conference Paper Reviews for</h3>
+            <ul>
+                <li>MICCAI</li>
+            </ul>
         </div>
     </section>
 
