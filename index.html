@@ -618,8 +618,10 @@
         </div>
     </section>
 
+    <!-- Paper Reviews and Game Section (side by side) -->
+    <section class="reviews-and-game">
     <!-- Paper Reviews Section -->
-    <section class="paper-reviews">
+    <div class="paper-reviews">
         <h2>Paper Reviews</h2>
 
         <!-- Journal Paper Reviews -->
@@ -641,75 +643,121 @@
                 <li><a href="https://www.miccai.org/" target="_blank">MICCAI</a></li>
             </ul>
         </div>
-    </section>
+    </div>
 
-    <!-- Add the game section to your page -->
-    <section class="game">
-    <h2>Click the Button Challenge</h2>
-    <p>Try to get as many points as possible in <span id="timer">10</span> seconds!</p>
-    <button id="clickButton" class="game-button">Click me!</button>
-    <p>Score: <span id="score">0</span></p>
-    <p id="feedback"></p>
+    <!-- Game Section -->
+    <div class="game">
+        <h2>Click the Button Challenge</h2>
+        <p>Try to get as many points as possible in <span id="timer">10</span> seconds!</p>
+        <button id="clickButton" class="game-button">Click me!</button>
+        <p>Score: <span id="score">0</span></p>
+        <p id="feedback"></p>
 
-    <!-- Add the game script here -->
-    <script>
-        let score = 0;
-        let timeLeft = 10;
-        let gameActive = true;
+        <script>
+            let score = 0;
+            let timeLeft = 10;
+            let gameActive = true;
 
-        // Change button color randomly
-        function getRandomColor() {
-            const letters = "0123456789ABCDEF";
-            let color = "#";
-            for (let i = 0; i < 6; i++) {
-                color += letters[Math.floor(Math.random() * 16)];
+            function getRandomColor() {
+                const letters = "0123456789ABCDEF";
+                let color = "#";
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
             }
-            return color;
-        }
 
-        // Button click event
-        document.getElementById("clickButton").addEventListener("click", function() {
-            if (gameActive) {
-                score++;
-                document.getElementById("score").innerText = score;
-                this.style.backgroundColor = getRandomColor();
-                showFeedback("+1!");
+            document.getElementById("clickButton").addEventListener("click", function () {
+                if (gameActive) {
+                    score++;
+                    document.getElementById("score").innerText = score;
+                    this.style.backgroundColor = getRandomColor();
+                    showFeedback("+1!");
+                }
+            });
+
+            function showFeedback(message) {
+                const feedback = document.getElementById("feedback");
+                feedback.innerText = message;
+                feedback.style.opacity = 1;
+                feedback.style.transition = "opacity 0.5s";
+                setTimeout(() => feedback.style.opacity = 0, 500);
             }
-        });
 
-        // Feedback animation
-        function showFeedback(message) {
-            const feedback = document.getElementById("feedback");
-            feedback.innerText = message;
-            feedback.style.opacity = 1;
-            feedback.style.transition = "opacity 0.5s";
-            setTimeout(() => feedback.style.opacity = 0, 500);
-        }
+            const timerInterval = setInterval(function () {
+                timeLeft--;
+                document.getElementById("timer").innerText = timeLeft;
 
-        // Countdown timer
-        const timerInterval = setInterval(function() {
-            timeLeft--;
-            document.getElementById("timer").innerText = timeLeft;
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    gameActive = false;
+                    document.getElementById("clickButton").innerText = "Time's up!";
+                    document.getElementById("clickButton").disabled = true;
+                    showFeedback("Game Over!");
+                }
+            }, 1000);
+        </script>
+    </div>
 
-            if (timeLeft <= 0) {
-                clearInterval(timerInterval);
-                gameActive = false;
-                document.getElementById("clickButton").innerText = "Time's up!";
-                document.getElementById("clickButton").disabled = true;
-                showFeedback("Game Over!");
-            }
-        }, 1000);
-    </script>
-
-    <!-- Add some styles to make it look nicer -->
     <style>
+        .reviews-and-game {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        /* Paper Reviews Section */
+        .paper-reviews {
+            flex: 1;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .reviews-list h3 {
+            font-size: 1.2em;
+            color: #007BFF;
+        }
+
+        .reviews-list ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .reviews-list ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .reviews-list ul li::before {
+            content: "\f0a9";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #007BFF;
+        }
+
+        .reviews-list ul li a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .reviews-list ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Game Section */
         .game {
+            flex: 1;
             text-align: center;
             padding: 20px;
             background-color: #f1f1f1;
             border-radius: 10px;
-            max-width: 400px;
-            margin: 20px auto;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
@@ -751,8 +799,16 @@
             font-weight: bold;
             color: #333;
         }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .reviews-and-game {
+                flex-direction: column;
+            }
+        }
     </style>
     </section>
+
     
     <!-- Footer -->
     <footer class="footer">
