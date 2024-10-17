@@ -464,19 +464,115 @@
         </div>
     </section>
 
+    <!-- Add the game section to your page -->
     <section class="game">
-    <h2>Click the Button Game</h2>
-    <p>Earn points by clicking the button!</p>
-    <button id="clickButton">Click me!</button>
+    <h2>Click the Button Challenge</h2>
+    <p>Try to get as many points as possible in <span id="timer">10</span> seconds!</p>
+    <button id="clickButton" class="game-button">Click me!</button>
     <p>Score: <span id="score">0</span></p>
+    <p id="feedback"></p>
 
+    <!-- Add the game script here -->
     <script>
         let score = 0;
+        let timeLeft = 10;
+        let gameActive = true;
+
+        // Change button color randomly
+        function getRandomColor() {
+            const letters = "0123456789ABCDEF";
+            let color = "#";
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Button click event
         document.getElementById("clickButton").addEventListener("click", function() {
-            score++;
-            document.getElementById("score").innerText = score;
+            if (gameActive) {
+                score++;
+                document.getElementById("score").innerText = score;
+                this.style.backgroundColor = getRandomColor();
+                showFeedback("+1!");
+            }
         });
+
+        // Feedback animation
+        function showFeedback(message) {
+            const feedback = document.getElementById("feedback");
+            feedback.innerText = message;
+            feedback.style.opacity = 1;
+            feedback.style.transition = "opacity 0.5s";
+            setTimeout(() => feedback.style.opacity = 0, 500);
+        }
+
+        // Countdown timer
+        const timerInterval = setInterval(function() {
+            timeLeft--;
+            document.getElementById("timer").innerText = timeLeft;
+
+            if (timeLeft <= 0) {
+                clearInterval(timerInterval);
+                gameActive = false;
+                document.getElementById("clickButton").innerText = "Time's up!";
+                document.getElementById("clickButton").disabled = true;
+                showFeedback("Game Over!");
+            }
+        }, 1000);
     </script>
+
+    <!-- Add some styles to make it look nicer -->
+    <style>
+        .game {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .game h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #007BFF;
+        }
+
+        .game p {
+            font-size: 1.2em;
+        }
+
+        .game-button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .game-button:hover {
+            background-color: #0056b3;
+        }
+
+        #feedback {
+            font-size: 1.5em;
+            color: green;
+            font-weight: bold;
+            opacity: 0;
+            margin-top: 10px;
+        }
+
+        #score {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
     </section>
     
     <!-- Photo Album Section -->
