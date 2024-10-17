@@ -657,6 +657,7 @@
             let score = 0;
             let timeLeft = 10;
             let gameActive = true;
+            let timerStarted = false;
 
             function getRandomColor() {
                 const letters = "0123456789ABCDEF";
@@ -684,18 +685,35 @@
                 setTimeout(() => feedback.style.opacity = 0, 500);
             }
 
-            const timerInterval = setInterval(function () {
-                timeLeft--;
-                document.getElementById("timer").innerText = timeLeft;
+            function startTimer() {
+                if (!timerStarted) {
+                    const timerInterval = setInterval(function () {
+                        timeLeft--;
+                        document.getElementById("timer").innerText = timeLeft;
 
-                if (timeLeft <= 0) {
-                    clearInterval(timerInterval);
-                    gameActive = false;
-                    document.getElementById("clickButton").innerText = "Time's up!";
-                    document.getElementById("clickButton").disabled = true;
-                    showFeedback("Game Over!");
+                        if (timeLeft <= 0) {
+                            clearInterval(timerInterval);
+                            gameActive = false;
+                            document.getElementById("clickButton").innerText = "Time's up!";
+                            document.getElementById("clickButton").disabled = true;
+                            showFeedback("Game Over!");
+                        }
+                    }, 1000);
+                    timerStarted = true;
                 }
-            }, 1000);
+            }
+
+            // IntersectionObserver to start timer when the game section is visible
+            const gameSection = document.querySelector(".game");
+            const observer = new IntersectionObserver(function (entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        startTimer();
+                    }
+                });
+            });
+
+            observer.observe(gameSection);
         </script>
     </div>
 
@@ -714,6 +732,10 @@
             background-color: #f1f1f1;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
         }
 
         .reviews-list h3 {
@@ -759,6 +781,10 @@
             background-color: #f1f1f1;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
         }
 
         .game h2 {
@@ -808,6 +834,7 @@
         }
     </style>
     </section>
+
 
     
     <!-- Footer -->
