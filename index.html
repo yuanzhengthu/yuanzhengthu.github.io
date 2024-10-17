@@ -464,6 +464,21 @@
         </div>
     </section>
 
+    <section class="game">
+    <h2>Click the Button Game</h2>
+    <p>Earn points by clicking the button!</p>
+    <button id="clickButton">Click me!</button>
+    <p>Score: <span id="score">0</span></p>
+
+    <script>
+        let score = 0;
+        document.getElementById("clickButton").addEventListener("click", function() {
+            score++;
+            document.getElementById("score").innerText = score;
+        });
+    </script>
+    </section>
+    
     <!-- Photo Album Section -->
     <section class="photo-album">
         <h2>Photo Album</h2>
